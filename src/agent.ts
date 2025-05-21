@@ -12,7 +12,6 @@ import { executeTool } from "./tools/index";
 import { Low } from "lowdb";
 import { MailClient } from "./mail-client";
 import { getPreviouslyClassifiedDetails } from "./tools/getPreviousClassification";
-import { moveEmail } from "./tools/moveEmail";
 
 const stringifyRules = (): string => {
   return configuration.rules
